@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Lab_05 {
+public class Task_1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         double shoppingPrice = 0;
