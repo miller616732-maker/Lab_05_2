@@ -14,7 +14,7 @@ public class Lab_05 {
             System.exit(0);
         }
         if (shoppingPrice >= 100) {
-            System.out.println("Your total cost is " + shoppingPrice);
+            System.out.println("Your total cost without shipping is " + shoppingPrice);
         } else {
             shoppingTax = shoppingPrice * taxRate;
             totalPrice = shoppingPrice + shoppingTax;
