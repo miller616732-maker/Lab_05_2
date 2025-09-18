@@ -18,7 +18,7 @@ public class Lab_05 {
         } else {
             shoppingTax = shoppingPrice * taxRate;
             totalPrice = shoppingPrice + shoppingTax;
-            System.out.println("Your total cost is " + totalPrice);
+            System.out.println("Your total cost with shipping is " + totalPrice);
         }
         }
     }
